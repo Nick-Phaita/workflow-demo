@@ -22,7 +22,7 @@ jobs:
       run: |
         ssh -o StrictHostKeyChecking=no ${{ secrets.DEPLOY_USER }}@${{ secrets.SERVER_IP }} << 'EOF'
           # Navigate to project folder and pull latest changes
-          cd /var/www/workflow-demo
+          cd /var/www/html/workflow-demo
           git pull origin main
           # Restart services, like Apache (optional)
           sudo systemctl restart httpd
