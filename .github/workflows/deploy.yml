@@ -26,5 +26,4 @@ jobs:
           git pull origin main
           # Restart services, like Apache (optional)
           sudo systemctl restart httpd
-EOF
-
+        EOF
