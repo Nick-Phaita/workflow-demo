@@ -24,8 +24,7 @@ jobs:
           # Navigate to project folder and pull latest changes
           cd /var/www/your_project_folder
           git pull origin main
-
           # Restart services, like Apache (optional)
           sudo systemctl restart httpd
-      EOF
+EOF
 
