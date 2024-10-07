@@ -28,3 +28,4 @@ jobs:
           # Restart services, like Apache (optional)
           sudo systemctl restart httpd
       EOF
+
