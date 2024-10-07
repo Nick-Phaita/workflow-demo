@@ -24,6 +24,4 @@ jobs:
           # Navigate to project folder and pull latest changes
           cd /var/www/html/workflow-demo
           git pull origin main
-          # Restart services, like Apache (optional)
-          sudo systemctl restart httpd
         EOF
