@@ -1,6 +1,6 @@
 <?php
 session_start();
-require 'src/functions.php';
+require '/src/functions.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = $_POST['email'];
