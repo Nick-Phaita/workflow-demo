@@ -14,6 +14,7 @@
     <p>This project has been worked on by:</p>
     <ul>
         <li>Nick Maina</li>
+        <li>Tracey Kyalo</li>
     </ul>
 </body>
 </html>
